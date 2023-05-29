@@ -33,8 +33,10 @@ img {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: linear-gradient(60deg, #949494 0%, #f7f7f7 100%);
-    opacity: 0.9;
+}
+
+.navbar a {
+    color:rgb(200, 200, 200);
 }
 
 /*-----home-----*/
@@ -45,4 +47,17 @@ img {
     background-position: top center;
     position: relative;
     z-index: 1;
+}
+
+/*-----media-----*/
+
+@media only screen and (max-width: 480px) {
+    #home .home {
+        background-image: url(/assets/images/gamebackgroundmobile.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+
+    }
 }
