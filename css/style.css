@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.front-face{
+    width: 100px;
+}
+
+.back-face{
+    width: 100px;
+}
+
 html {
     scroll-behavior: smooth;
 
