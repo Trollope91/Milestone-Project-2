@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.memory-game,
+.memory-card {
+scale:0.8;
+}
+
 .front-face,
 .back-face{
     width: 100px;
@@ -40,7 +45,7 @@ img {
 }
 
 .memory-game{
-padding-top: 130px;
+padding-top: 150px;
 display: grid;
 grid-template-columns: repeat(4, auto);
 max-width: 100%;
@@ -85,7 +90,7 @@ transition: .2s;
 /*-----home-----*/
 
 #home {
-    background-image: url(/assets/images/gamebackground720p.png);
+    background-image: url(/assets/images/gamebackground720p2.png);
     background-size: cover;
     background-position: top center;
     position: relative;
