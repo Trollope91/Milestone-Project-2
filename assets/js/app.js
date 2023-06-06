@@ -17,11 +17,11 @@ function flipCard() {
     return;
   }
 
-  secondcard = this;
+  secondCard = this;
   checkForMatch();
 }
 
-/*------Matching logic------*/
+/*------Matching Logic------*/
 
 function checkForMatch() {
   let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
@@ -43,23 +43,23 @@ function unflipCards() {
   }, 1500);
 }
 
-/*------Resetc logic------*/
+/*------Reset Logic------*/
 
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
 
+/*------Shuffle Logic------*/
+
+(function shuffle() {
+  cards.forEach(card => {
+    let ramdomPos = Math.floor(Math.random() * 12);
+    card.style.order = ramdomPos;
+  });
+})();
+
 cards.forEach(card => card.addEventListener('click', flipCard));
-
-/*------Shuffle logic------*/
-
- (function shuffle() {
-   cards.forEach(card => {
-     let ramdomPos = Math.floor(Math.random() * 12);
-     card.style.order = ramdomPos;
-   });
- })();
 
 
 
