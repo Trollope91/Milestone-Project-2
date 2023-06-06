@@ -4,25 +4,33 @@
     box-sizing: border-box;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*----game-----*/
+
 .memory-game,
 .memory-card {
-scale:0.8;
+    scale: 0.8;
 }
 
 .front-face,
-.back-face{
+.back-face {
     width: 100px;
     height: 100px;
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
-    
+
 
 }
 
 .front-face {
     transform: rotateY(180deg);
-  }
+}
 
 
 html {
@@ -38,24 +46,18 @@ html {
     justify-content: center;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.memory-game {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    max-width: 100%;
+    justify-content: center;
+    perspective: 1000px;
 }
 
-.memory-game{
-padding-top: 150px;
-display: grid;
-grid-template-columns: repeat(4, auto);
-max-width: 100%;
-justify-content: center;
-perspective: 1000px;
-}
-
-.memory-card{
+.memory-card {
     width: 100px;
-    height:100px;
+    height: 100px;
     position: relative;
     margin: 5px;
     transform: scale(1);
@@ -63,14 +65,15 @@ perspective: 1000px;
     transition: transform .5s;
 }
 
-.memory-card:active{
-transform: scale(.97);
-transition: .2s;
+.memory-card:active {
+    transform: scale(.97);
+    transition: .2s;
 }
 
 .memory-card.flip {
     transform: rotateY(180deg);
-  }
+}
+
 /*-----navbar-----*/
 
 .navbar {
@@ -84,7 +87,7 @@ transition: .2s;
 }
 
 .navbar a {
-    color:rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
 }
 
 /*-----home-----*/
@@ -102,6 +105,7 @@ transition: .2s;
 }
 
 /*-----Contact Me-----*/
+
 #contact {
     background-image: url(/assets/images/164022-GameBoy-gamepad-minimalism-video-games.jpg);
     background-size: cover;
@@ -125,7 +129,7 @@ transition: .2s;
 
     .memory-game,
     .memory-card {
-scale:0.7;
+        scale: 0.7;
     }
 
 }
