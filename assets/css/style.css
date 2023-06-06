@@ -38,6 +38,11 @@ html {
 
 }
 
+.credit {
+    position: absolute;
+    bottom: 30px;
+}
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -47,7 +52,6 @@ html {
 }
 
 .memory-game {
-    padding-top: 150px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     max-width: 100%;
@@ -93,7 +97,7 @@ html {
 /*-----home-----*/
 
 #home {
-    background-image: url(/assets/images/gamebackground720p2.png);
+    background-image: url(/assets/images/gbbackground.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -127,9 +131,12 @@ html {
 
     }
 
+    @media only screen and (max-width: 480px) {
+
     .memory-game,
     .memory-card {
         scale: 0.7;
     }
 
+}
 }
