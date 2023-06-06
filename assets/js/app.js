@@ -16,7 +16,10 @@ function flipCard() {
     return;
   }
 
-  secondCard = this;
+
+/*------Matching Logic------*/
+
+secondCard = this;
   hasFlippedCard = false;
 
   checkForMatch();
@@ -44,6 +47,16 @@ function unflipCards() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-/*------Matching Logic------*/
+
+/*------Reset Logic------*/
+
+if (this === firstCard) return;
+
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
+}
+
+
 
 
