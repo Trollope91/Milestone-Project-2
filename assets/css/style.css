@@ -92,6 +92,20 @@ transition: .2s;
     z-index: 1;
 }
 
+.credit {
+    display: block;
+}
+
+/*-----Contact Me-----*/
+#contact {
+    background-image: url(/assets/images/164022-GameBoy-gamepad-minimalism-video-games.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+
 /*-----media-----*/
 
 @media only screen and (max-width: 480px) {
