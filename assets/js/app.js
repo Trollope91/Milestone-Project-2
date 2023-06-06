@@ -8,6 +8,7 @@ let firstCard, secondCard;
 
 function flipCard() {
   if (lockBoard) return;
+  if (this === firstCard) return;
   this.classList.add('flip');
 
   if (!hasFlippedCard) {
@@ -16,14 +17,11 @@ function flipCard() {
     return;
   }
 
-
-/*------Matching Logic------*/
-
-secondCard = this;
-  hasFlippedCard = false;
-
+  secondcard = this;
   checkForMatch();
 }
+
+/*------Matching logic------*/
 
 function checkForMatch() {
   let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
@@ -33,6 +31,7 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
+  resetBoard();
 }
 
 function unflipCards() {
@@ -40,23 +39,27 @@ function unflipCards() {
   setTimeout(() => {
     firstCard.classList.remove('flip');
     secondCard.classList.remove('flip');
-    lockBoard = false;
+   resetBoard();
   }, 1500);
 }
 
-
-cards.forEach(card => card.addEventListener('click', flipCard));
-
-
-/*------Reset Logic------*/
-
-if (this === firstCard) return;
+/*------Resetc logic------*/
 
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
 
+cards.forEach(card => card.addEventListener('click', flipCard));
+
+/*------Shuffle logic------*/
+
+ (function shuffle() {
+   cards.forEach(card => {
+     let ramdomPos = Math.floor(Math.random() * 12);
+     card.style.order = ramdomPos;
+   });
+ })();
 
 
 
