@@ -8,10 +8,8 @@
 .back-face{
     width: 100px;
     height: 100px;
-    border: 2px solid deeppink;
     position: absolute;
     border-radius: 5px;
-    background-color: blue;
     backface-visibility: hidden;
     
 
@@ -42,16 +40,15 @@ img {
 }
 
 .memory-game{
-
-border: 2px solid lime;
+padding-top: 130px;
 display: grid;
 grid-template-columns: repeat(4, auto);
+max-width: 100%;
 justify-content: center;
 perspective: 1000px;
 }
 
 .memory-card{
-    border: 2px solid aqua;
     width: 100px;
     height:100px;
     position: relative;
@@ -105,4 +102,11 @@ transition: .2s;
         position: relative;
         z-index: 1;
 
-    }}
+    }
+
+    .memory-game,
+    .memory-card {
+scale:0.7;
+    }
+
+}
