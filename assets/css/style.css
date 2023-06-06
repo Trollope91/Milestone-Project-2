@@ -104,9 +104,11 @@ html {
     z-index: 1;
 }
 
-.credit {
-    display: block;
+.logo {
+    position: absolute;
+    top:30px;
 }
+
 
 /*-----Contact Me-----*/
 
@@ -121,17 +123,7 @@ html {
 
 /*-----media-----*/
 
-@media only screen and (max-width: 480px) {
-    #home .home {
-        background-image: url(/assets/images/gamebackgroundmobile.png);
-        background-size: cover;
-        background-position: top center;
-        position: relative;
-        z-index: 1;
-
-    }
-
-    @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 480px) {
 
     .memory-game,
     .memory-card {
@@ -139,4 +131,7 @@ html {
     }
 
 }
+
+#audioplayer {
+    display: none;
 }
