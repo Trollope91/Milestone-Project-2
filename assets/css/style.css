@@ -109,6 +109,28 @@ html {
     top:30px;
 }
 
+.buttons {
+    position: absolute;
+    padding-top: 300px;
+}
+
+.how-to,
+.reset {
+    margin:5px;
+        background-image: url(/assets/images/pokemonlogo.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        /* put the height and width of your image here */
+        height: 50px;
+        width: 200px;
+        border: none;
+      }
+      
+      button span {
+        display: none;
+      }
+}
+
 
 /*-----Contact Me-----*/
 
