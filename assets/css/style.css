@@ -57,6 +57,7 @@ html {
     max-width: 100%;
     justify-content: center;
     perspective: 1000px;
+    z-index: 100;
 }
 
 .memory-card {
@@ -111,7 +112,7 @@ html {
 
 .buttons {
     position: absolute;
-    padding-top: 300px;
+    padding-top: 350px;
 }
 
 .how-to,
@@ -120,16 +121,15 @@ html {
         background-image: url(/assets/images/pokemonlogo.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
-        /* put the height and width of your image here */
         height: 50px;
-        width: 200px;
+        width: 120px;
         border: none;
       }
       
       button span {
         display: none;
       }
-}
+
 
 
 /*-----Contact Me-----*/
@@ -143,9 +143,20 @@ html {
 }
 
 .modal {
+    position: absolute;
     text-align: center;
     padding: 0!important;
+    
   }
+
+  .modal-content {
+    display: inline-block;
+    padding: 8px 9px;
+    color:black;
+    font-size: 1.1rem;
+    background-color:rgba(138, 149, 107,0.9);
+}
+
   .modal:before {
     content: '';
     display: inline-block;
@@ -167,6 +178,25 @@ html {
     .memory-card {
         scale: 0.7;
     }
+
+.modal {
+    position: absolute;
+    text-align: center;
+    padding: 0!important;
+    
+  }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 25%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
 
 }
 
