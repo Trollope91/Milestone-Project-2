@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Press Start 2P", sans-serif !important;
+    font-size: smaller;
 }
 
 img {
@@ -118,9 +126,8 @@ html {
 .how-to,
 .reset {
     margin:5px;
-        background-image: url(/assets/images/pokemonlogo.png);
+        background-image: url(/assets/images/how.png);
         background-repeat: no-repeat;
-        background-position: 50% 50%;
         height: 50px;
         width: 120px;
         border: none;
