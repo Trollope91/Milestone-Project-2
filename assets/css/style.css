@@ -123,6 +123,13 @@ html {
     padding-top: 350px;
 }
 
+.btn {
+    color:black;
+    background-color:rgba(138, 149, 107,0.0);
+    border:none;
+    }
+
+
 .how-to,
 .reset {
     margin:5px;

@@ -15,3 +15,6 @@ mew.src = "/assets/sfx/mewtwo.mp3"
 
 var pika = new Audio()
 pika.src = "/assets/sfx/pikachu.mp3"
+
+var bgmusic = new Audio()
+bgmusic.src = "/assets/images/gamecorner.mp3"
