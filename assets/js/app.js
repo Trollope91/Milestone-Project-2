@@ -14,7 +14,7 @@ function flipCard() {
 
   if (!hasFlippedCard) {
     hasFlippedCard = true;
-    
+
     firstCard = this;
     return;
   }

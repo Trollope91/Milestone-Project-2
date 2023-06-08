@@ -6,3 +6,5 @@ window.addEventListener('DOMContentLoaded', function () {
     }, 1000);
 });
 
+var bulb = new Audio()
+bulb.src = "/assets/images/bulbasaur.mp3"
