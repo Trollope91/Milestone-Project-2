@@ -25,7 +25,6 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">How to play</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           In this simple Pokemon theme game you will match the tiles in order to win
@@ -34,8 +33,8 @@
           Each time the board is completed the cards will reset and shuffle oncemore for endless fun!
         </div>
         <div class="modal-footer">
-          <button onmousedown="toggleSfx()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button onmousedown="toggleAudio()" loop type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button onmousedown="toggleSfx()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Play without sound</button>
+          <button onmousedown="toggleAudio()" loop type="button" class="btn btn-secondary" data-bs-dismiss="modal">Play with sound</button>
         </div>
       </div>
     </div>
@@ -110,7 +109,6 @@
         <button type="button" class="btn btn-primary reset" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Reset
         </button>
-        <button onclick="toggleVisibility()">Hide Element</button>
       </div>
     </div>
   </section>
