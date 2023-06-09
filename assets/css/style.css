@@ -150,8 +150,9 @@ html {
 
       button {
         border: none;
-    border-radius: 0;
+        padding: 10px;
     background-color: transparent;
+    scale: 1.1;
       }
 
 

@@ -103,11 +103,11 @@
         <img src="assets/images/credit.png" alt="">
       </div>
       <div class="buttons">
-        <button type="button" class="btn btn-primary reset" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          How to play
+        <button onmousedown="toggleVisibility()" type="button">
+          Game-mode
         </button>
         <button onmousedown="toggleAudio(),toggleSfx()" type="button">
-          Sfx On/Off
+          Sounds
         </button>
       </div>
     </div>
@@ -124,6 +124,7 @@
   </section>
   <script src="assets/js/app.js"></script>
   <script src="assets/js/sfx.js"></script>
+  <script src="assets/js/difficulty.js"></script>
   <script src="assets/js/modal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
