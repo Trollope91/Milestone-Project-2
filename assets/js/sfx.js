@@ -35,3 +35,12 @@ function toggleAudio() {
       bgmusic.pause();
     }
   }
+
+  function toggleSfx() {
+    bulb.muted = !bulb.muted;
+    char.muted = !char.muted;
+    squir.muted = !squir.muted;
+    haunt.muted = !haunt.muted;
+    mew.muted = !mew.muted;
+    pika.muted = !pika.muted;
+  }

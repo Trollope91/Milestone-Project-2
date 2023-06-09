@@ -129,6 +129,7 @@ html {
     border:none;
     }
 
+
     .hidden {
         display: none;
       }
@@ -145,6 +146,12 @@ html {
       
       button span {
         display: none;
+      }
+
+      button {
+        border: none;
+    border-radius: 0;
+    background-color: transparent;
       }
 
 
