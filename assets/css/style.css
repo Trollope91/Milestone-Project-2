@@ -129,6 +129,9 @@ html {
     border:none;
     }
 
+    .hidden {
+        display: none;
+      }
 
 .how-to,
 .reset {

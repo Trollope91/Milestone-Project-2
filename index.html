@@ -34,7 +34,8 @@
           Each time the board is completed the cards will reset and shuffle oncemore for endless fun!
         </div>
         <div class="modal-footer">
-          <button onmousedown="bgmusic.play();" loop type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button onmousedown="toggleSfx()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button onmousedown="toggleAudio()" loop type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -49,7 +50,7 @@
       <div class="logo">
         <img src="assets/images/pokemonlogo.png" alt="">
       </div>
-      <div class="memory-game">
+      <div class="memory-game" id="myElement">
         <div class="memory-card" data-framework="bulbasaur">
           <img class="front-face" src="assets/images/bulbasaur100.png"></img>
           <img onclick="bulb.play();" class="back-face" src="assets/images/pokeball100.png"></img>
@@ -109,6 +110,7 @@
         <button type="button" class="btn btn-primary reset" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Reset
         </button>
+        <button onclick="toggleVisibility()">Hide Element</button>
       </div>
     </div>
   </section>
