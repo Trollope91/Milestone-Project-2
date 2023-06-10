@@ -1,5 +1,8 @@
 /*------Flipping logic-----*/
 
+let isHardMode = false;
+
+
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
@@ -35,6 +38,17 @@ function disableCards() {
   secondCard.removeEventListener('click', flipCard);
   resetBoard();
   matchedCards += 2;
+
+  if (isHardMode) {
+    if (matchedCards === cards.length) {
+      restartGame();
+    }
+  } else {
+    if (matchedCards === cards.length - 4) {
+      restartGame();
+    }
+  }
+
   if (matchedCards === cards.length) {
     restartGame();
   }
@@ -49,7 +63,7 @@ function unflipCards() {
   }, 1500);
 }
 
-/*------Reset Logic------*/
+/*------Reset cards------*/
 
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
@@ -65,7 +79,7 @@ function shuffle() {
   });
 }
 
-/*------Reset Logic-----*/
+/*------Reset game-----*/
 
 function restartGame() {
   resetBoard();

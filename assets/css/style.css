@@ -59,6 +59,14 @@ html {
     justify-content: center;
 }
 
+.harder {
+    display: none;
+}
+
+#invisible {
+    display: none;
+}
+
 .memory-game {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -67,6 +75,16 @@ html {
     perspective: 1000px;
     z-index: 100;
 }
+
+.memory-game2 {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        max-width: 100%;
+        justify-content: center;
+        perspective: 1000px;
+        z-index: 100;
+        scale: 0.7;
+    }
 
 .memory-card {
     width: 100px;

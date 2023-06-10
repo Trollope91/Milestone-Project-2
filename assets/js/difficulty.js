@@ -1,8 +1,18 @@
-function toggleVisibility() {
-    var element = document.getElementById("myElement");
-    if (element.classList.contains("hidden")) {
-      element.classList.remove("hidden");
+function toggleElements() {
+    var elements = document.querySelectorAll(".harder");
+    if (isHardMode === false){
+
+     isHardMode = true; 
     } else {
-      element.classList.add("hidden");
+      isHardMode = false;
     }
+    elements.forEach(function(element) {
+      if (element.style.display === "none" || element.style.display === "" ) {
+        element.style.display = "block";
+      } else {
+        element.style.display = "none";
+      }
+    });
   }
+  
+

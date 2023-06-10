@@ -44,12 +44,12 @@
 
   <!--home-->
 
-  <section id="home">
+  <!--<section id="home" id="myElement">
     <div class="home container">
       <div class="logo">
         <img src="assets/images/pokemonlogo.png" alt="">
       </div>
-      <!--<div class="memory-game" id="myElement">
+      <div class="memory-game">
         <div class="memory-card" data-framework="bulbasaur">
           <img class="front-face" src="assets/images/bulbasaur100.png"></img>
           <img onclick="bulb.play();" class="back-face" src="assets/images/pokeball100.png"></img>
@@ -103,16 +103,20 @@
         <img src="assets/images/credit.png" alt="">
       </div>
       <div class="buttons">
-        <button onmousedown="toggleVisibility()" type="button">
-          Game-mode
-        </button>
+        <button id="commentButton" onclick="toggleComment()">Comment</button>
         <button onmousedown="toggleAudio(),toggleSfx()" type="button">
           Sounds
         </button>
       </div>
-    </div>-->
+    </div>
+  </section>-->
 
-    <div class="memory-game2" id="myElement">
+      <section id="home" >
+        <div class="home container">
+          <div class="logo">
+            <img src="assets/images/pokemonlogo.png" alt="">
+          </div>
+    <div class="memory-game2">
       <div class="memory-card" data-framework="bulbasaur">
         <img class="front-face" src="assets/images/bulbasaur100.png"></img>
         <img onclick="bulb.play();" class="back-face" src="assets/images/pokeball100.png"></img>
@@ -161,19 +165,19 @@
         <img class="front-face" src="assets/images/pikachu100.png"></img>
         <img onmousedown="pika.play();"  class="back-face" src="assets/images/pokeball100.png"></img>
       </div>
-      <div class="memory-card" data-framework="butterfree">
+      <div class="memory-card harder" data-framework="butterfree">
         <img class="front-face" src="assets/images/butterfree100.png"></img>
         <img onmousedown="butter.play();"  class="back-face" src="assets/images/pokeball100.png"></img>
       </div>
-      <div class="memory-card" data-framework="butterfree">
+      <div class="memory-card harder" data-framework="butterfree">
         <img class="front-face" src="assets/images/butterfree100.png"></img>
         <img onmousedown="butter.play();"  class="back-face" src="assets/images/pokeball100.png"></img>
       </div>
-      <div class="memory-card" data-framework="pikachu">
+      <div class="memory-card harder" data-framework="nidoking">
         <img class="front-face" src="assets/images/nidoking100.png"></img>
         <img onmousedown="nido.play();"  class="back-face" src="assets/images/pokeball100.png"></img>
       </div>
-      <div class="memory-card" data-framework="pikachu">
+      <div class="memory-card harder" data-framework="nidoking">
         <img class="front-face" src="assets/images/nidoking100.png"></img>
         <img onmousedown="nido.play();"  class="back-face" src="assets/images/pokeball100.png"></img>
       </div>
@@ -182,7 +186,7 @@
       <img src="assets/images/credit.png" alt="">
     </div>
     <div class="buttons">
-      <button onmousedown="toggleVisibility()" type="button">
+      <button id="commentButton" onmousedown="toggleElements()" type="button">
         Game-mode
       </button>
       <button onmousedown="toggleAudio(),toggleSfx()" type="button">
