@@ -1,5 +1,7 @@
 /*------Flipping logic-----*/
 
+let errorDisplayed = false; // To keep track of whether the error message has been displayed
+
 let isHardMode = false;
 
 

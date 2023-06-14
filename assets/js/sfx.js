@@ -1,28 +1,28 @@
-var bulb = new Audio()
+let bulb = new Audio()
 bulb.src = "../assets/sfx/bulbasaur.mp3"
 
-var char = new Audio()
+let char = new Audio()
 char.src = "../assets/sfx/charmander.mp3"
 
-var squir = new Audio()
+let squir = new Audio()
 squir.src = "../assets/sfx/squirtle.mp3"
 
-var haunt = new Audio()
+let haunt = new Audio()
 haunt.src = "../assets/sfx/haunter.mp3"
 
-var mew = new Audio()
+let mew = new Audio()
 mew.src = "../assets/sfx/mewtwo.mp3"
 
-var pika = new Audio()
+let pika = new Audio()
 pika.src = "../assets/sfx/pikachu.mp3"
 
-var bgmusic = new Audio()
+let bgmusic = new Audio()
 bgmusic.src = "../assets/sfx/gamecorner.mp3"
 
-var butter = new Audio()
+let butter = new Audio()
 butter.src = "../assets/sfx/butterfree.mp3"
 
-var nido = new Audio()
+let nido = new Audio()
 nido.src = "../sfx/nidoking.mp3"
 
 function toggleAudio() {
@@ -43,3 +43,4 @@ function toggleAudio() {
     nido.muted = !nido.muted;
     butter.muted = !butter.muted;
   }
+  

@@ -1,5 +1,5 @@
 function toggleElements() {
-    var elements = document.querySelectorAll(".harder");
+    let elements = document.querySelectorAll(".harder");
     if (isHardMode === false){
 
      isHardMode = true; 
