@@ -1,30 +1,32 @@
-# Luke's Portfolio
+# Gameboy Fan Game
 
 ## User-Centric Front end Development Milestone Project.
 
-![Project_image](/assets/documentation/project-image.png)
+![Project_image]
 
-The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to access my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
+The Website presents a fully responsive browser based game, themed after the original gameboy and using the iconic graphics and sounds from the original pokemon titles.
 
 This project is for educational purposes only.
 
-The main aim of this project is to build a responsive website that uses HTML and CSS as well as some elements from bootstrap powered by some java script
+The main aim of this project is to build a responsive website that uses HTML CSS and Javascript that displays interactivity with the page.
 
-## [View luke's portfolio in github pages](https://trollope91.github.io/Milestone-Project-One/)
+## [View luke's portfolio in github pages]()
 ---
 
 # UX
 
 ## Website owner business goals
 
-The main goal of the website is to present myself as a competent developer displaying my skills within the site and through the quality of it's design. Also the user will be able to request contact through email, find my other social links and download a CV through a link on my about me page. 
+The main goal of the website is to provide the user with a fun simple game, displaying competent use of html, css and javascript to achieve an interactive game that responds to the users inputs with animated tile flips and sounds.
+
+aside from the basic logic of the game using javascript, I aim to be able to prompt the user whether they want sound enabled on page load and to be able to choose between a harder difficulty.
 
 ## User goals
 
 ### New user goals:
-- user is able to find information about myself and what I offer
-- user can easily navigate the site and find the information relevant to them
-- find a CV, contact me, browse my skills or find my other social spaces.
+- select whether the game has sound or not.
+- the user can easily understand the premise of the game.
+- is able to change between another game mode that provides more difficuty.
 
 ## User stories
 
@@ -42,87 +44,79 @@ The main goal of the website is to present myself as a competent developer displ
 
 ## Structure of the website
 
-The website is designed to be simple and effective displaying competent use of HTML and CSS with attention to UI and UX, it will be responsive and adapt to all resolutions shifting layout and size to accomodate mobile, tablet and desktop. the page is designed in a one page layout with smooth scrolling and animation to denote the links and interactive elements on the page.
+The website is a single page display containing a simple game in what I hope to be a clean and nostalgic throwback to the classic looks and sounds of the original gameboy, complete with a game that contains the sights and sounds of one of the most familiar games from the platform.
 
 ## Wireframes
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Mobile-Wireframes](/assets/documentation/mobile-wireframes.png)
+![Mobile-Wireframes]()
 
-![Mobile-Wireframes](/assets/documentation/desktop-wireframes.png)
+![Mobile-Wireframes]()
 
 ### Changes
 
-Initially the site was to contain a dedicated contact me section but I thought with the links in the footer I could add a modal to the intial home page for a better use of space and look overall.
 
 ### Colors
 
 Main colours used in a project:
-Text in paragraphs: Azure
-Brand and headers: rgb(161, 152, 17,)
+Text in paragraphs: 
+Brand and headers: rgb()
 
 
 ### Fonts 
 
-* As a main font I used Cormorant, and as a backup font sans-serif
+* As a main font I used "PRESS START 2P", and as a backup font sans-serif
 
 ### Images
 
-* I used mostly original images modified with photoshop to create my website
+* I used a collection of images from the the classic pokemon games ripped from sprite sheets and converted to png with backgrounds removed via photo shop
 
+![Mobile-Wireframes](./assets/images/overworld-sprite-sheet.png)
+
+https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/8728/
+
+![Mobile-Wireframes](./assets/images/pokemon-sprite-sheet.png)
+
+https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/36964/
 ___
 # Features
 
 The website consists of 4 pages, a home, skills page, about me and a project page headed by a floating nav bar and footed with a small section that contains a brand and social links
 
+The website consists of a single page with a title div, gamecontainer and a div housing buttons for the sound and the game mode.
+
 The website has below features:
 
-## Navigation bar
+## The How to play modal
 
-* #### Navigation bar is fixed to the top of the screen and conforms to the resolution of the device it is used on relegating to a hamburger button and removing the email contact button for a better look
+* #### The how to play modal is called by javascript on page load and prompts with the option to play the game with or without sound.
 
-    * On left side there is a brand logo. It can be used as navigation link to the main page.
-    * On right side there are four links or burger menu. It contains:
-       *Skills
-       *About me
-       *Projects
+## The Game
 
-       ![project images](/assets/documentation/project1.png)
+* #### The game is confined to the center of the page and consists of a grid containing a number of pokeballs the user must flip to reveal the pokemon and attempt to match.
 
-## Footer
+    * The board consists of a repeated pokeball item image from the classic game
+    * The flip side houses an image of one of the original 151 characters to be revealed and matched
 
-* Footer has social links centered as icons that animate upon hover. 
+       ![project images]()
 
-![project images](/assets/documentation/project6.png)
+## Game mode button
 
-## Home
+* The game mode button allows the user to dynamically enlarge the game board to provide a harder difficulty
 
-* Home is designed to display design skills and be an immediate introduction to myself and the level of skill at which I currently operate with the ability to contact me via an email modal.
+![project images]()
 
-![project images](/assets/documentation/project2.png)
+## Sound
 
-## Skills
+* If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
 
-* Skills page gives a bit more specific insight into my current level of knowledge and experience.
+![project images]()
 
-![project images](/assets/documentation/project3.png)
-
-## About me
-
-* About me gives information about myself my professional background and where I aspire to take my career
-
-![project images](/assets/documentation/project4.png)
-
-## Projects 
-
-* projects page contains a list of the works I have created as an example for prospective employers.
-
-![project images](/assets/documentation/project5.png)
 
 ##  Future implementations
 
-* A method to arrange a live meeting 
+* A method to track speed of completion and add it to a leaderboard
 
 ___
 # Technologies used
@@ -131,6 +125,9 @@ ___
 * As a structure language.
 
 ### CSS
+* As a style language.
+
+### Javascript
 * As a style language.
 
 ### Bootstrap 
@@ -168,7 +165,7 @@ ___
 
 ## Media Query / Resolution testing 
 
- ![resolution test](/assets/documentation/resolution-test.png)
+ ![resolution test]()
 
 
 ## Compatibility testing
@@ -176,7 +173,7 @@ ___
  
  I tested on hardware devices such as: Dell Latitude with Windows OS's, Huawei P30 smartphone with Android OS on google chrome browser and samsung A7 lite with Android OS.
 
-![Mobile test](/assets/documentation/mobile-hardware.gif)
+![Mobile test]()
 
 ## User stories testing
 
@@ -249,11 +246,11 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ## Repository
 
-https://github.com/Trollope91/Milestone-Project-One
+
 
 ## Live link
 
-https://trollope91.github.io/Milestone-Project-One/
+
 
 ## Copying the repository
 
@@ -263,7 +260,6 @@ Wait for the cloning process to complete.
 
 ## Clone link
 
-https://github.com/Trollope91/Milestone-Project-One/archive/refs/heads/main.zip
 
 
 ## Forking the repository
@@ -284,11 +280,10 @@ ___
     * [css-tricks.com](https://css-tricks.com/)
 
     * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.6.2/getting-started/introduction/)
-        I used code for navbar from Bootstrap.
 
 ### Code
 
-* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.6.2/components/navbar/#text)
+*
 
 ### Images:
 

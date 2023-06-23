@@ -23,7 +23,7 @@ let butter = new Audio()
 butter.src = "../assets/sfx/butterfree.mp3"
 
 let nido = new Audio()
-nido.src = "../sfx/nidoking.mp3"
+nido.src = "../assets/sfx/nidoking.mp3"
 
 function toggleAudio() {
     if (bgmusic.paused) {
