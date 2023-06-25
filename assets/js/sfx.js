@@ -26,21 +26,20 @@ let nido = new Audio()
 nido.src = "../assets/sfx/nidoking.mp3"
 
 function toggleAudio() {
-    if (bgmusic.paused) {
-      bgmusic.play();
-    } else {
-      bgmusic.pause();
-    }
+  if (bgmusic.paused) {
+    bgmusic.play();
+  } else {
+    bgmusic.pause();
   }
+}
 
-  function toggleSfx() {
-    bulb.muted = !bulb.muted;
-    char.muted = !char.muted;
-    squir.muted = !squir.muted;
-    haunt.muted = !haunt.muted;
-    mew.muted = !mew.muted;
-    pika.muted = !pika.muted;
-    nido.muted = !nido.muted;
-    butter.muted = !butter.muted;
-  }
-  
+function toggleSfx() {
+  bulb.muted = !bulb.muted;
+  char.muted = !char.muted;
+  squir.muted = !squir.muted;
+  haunt.muted = !haunt.muted;
+  mew.muted = !mew.muted;
+  pika.muted = !pika.muted;
+  nido.muted = !nido.muted;
+  butter.muted = !butter.muted;
+}

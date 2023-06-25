@@ -100,15 +100,15 @@ async function monkeyTestGame() {
   let homeContainer = document.querySelector(".home.container");
   let divs = homeContainer.querySelectorAll(".memory-card");
 
-  let numEvents = 1000; 
+  let numEvents = 1000;
 
   for (let i = 0; i < numEvents; i++) {
-    setTimeout(function() {
+    setTimeout(function () {
       let randomIndex = Math.floor(Math.random() * divs.length);
       let divElement = divs[randomIndex];
       divElement.click();
     }, 3000 * i);
-   
+
   }
 }
 
