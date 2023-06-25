@@ -50,18 +50,26 @@ The website is a single page display containing a simple game in what I hope to 
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Mobile-Wireframes]()
+![Desktop-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Desktop.png)
 
-![Mobile-Wireframes]()
+![Mobile-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Mobile.png)
+
+![Mobile-Gameboard-Wireframes](./assets/documentation/Harder-Wireframe-Desktop.png)
+
+![Mobile-Gameboard-Wireframes](./assets/documentation/Harder-Wireframe-Mobile.png)
+
+![Mobile-Gameboard-Wireframes](./assets/documentation/Modal-Wireframe-Desktop.png)
+
+![Mobile-Gameboard-Wireframes](./assets/documentation/Modal-Wireframe-Mobile.png)
+
 
 ### Changes
 
 
 ### Colors
 
-Main colours used in a project:
-Text in paragraphs: 
-Brand and headers: rgb()
+Main colours used in the project: rgba(138, 149, 107,0.9)
+Text in paragraphs:color:black;
 
 
 ### Fonts 
@@ -72,21 +80,18 @@ Brand and headers: rgb()
 
 * I used a collection of images from the the classic pokemon games ripped from sprite sheets and converted to png with backgrounds removed via photo shop
 
-![Mobile-Wireframes](./assets/images/overworld-sprite-sheet.png)
+![Images](./assets/documentation/overworld-sprite-sheet.png)
 
 https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/8728/
 
-![Mobile-Wireframes](./assets/images/pokemon-sprite-sheet.png)
+![Images](./assets/documentation/pokemon-sprite-sheet.png)
 
 https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/36964/
 ___
 # Features
-
-The website consists of 4 pages, a home, skills page, about me and a project page headed by a floating nav bar and footed with a small section that contains a brand and social links
-
 The website consists of a single page with a title div, gamecontainer and a div housing buttons for the sound and the game mode.
 
-The website has below features:
+The website has the below features:
 
 ## The How to play modal
 
@@ -133,9 +138,6 @@ ___
 ### Bootstrap 
 * Bootstrap@4.6.2 as a CSS framework to keep responsive, mobile first aproach.
 
-### Font Awesome
-* As an icon library for a social links.
-
 ### Google fonts
 * As a font resource.
 
@@ -179,36 +181,39 @@ ___
 
 ### As the Site Owner:
 
-- I would like to present myself and my skills to prospective employers.
-    > Site immediately loads into a well designed hero page with functioning animations and nav bar.
-- I need to make sure that prospective employers are able to navigate the site and easily find what they are looking for 
-    > Site is easy to visually navigate with links that take the user to the relevant areas of interest.
-- I want prospective employers to be able to find me on other social platforms easily
-    > Footer contains animated icons that link to my other relevant platforms of contact.
-- I want prospective emplyers to be able to see my relevant projects that show my experience and skills
-    > Project sections contains most relevant pieces of work and about me section contains a link to download a CV for a more in depth look at my professional qualifications.
+- I would like to present a fun game game with a pleasing aesthetic.
+    >Site loads into game page with a clear visual direction towards what to do
+- I want user to be able to quickly and easily understand the premise of the game.
+    >on load the website provides the user with a modal displaying instructionson how to play.
+- I want to make the game more immersive by adding sounds effect and a background track
+    >the page loads music upon page load and sound effects are linked to the game elementns via javascript.
+- The page cannot play music by default so I need to figure out a solution
+    >the how to play modal gives the player the option to play with or without music before initiating play.
+- I want the user to have more control over the audio settings
+    >the user has access to a button that can mute and unmute all sounds at all times.
+- I want the player to be capable of modifying the games diffuculty at any time.
+    >the user has access to a game mode button that will increase or decrease the size of the gameboard and accompanying game pieces.
 
     ![User story test](/assets/documentation/user-story.gif)
 
 ### As a new customer:
-- Wish to find relevant information relating to the site owner
-    > user is presented with all relevant navigation information and a contact me prompt upon starting the site.
-- I would like to see the relevant skills the site owner has.
-    > user can find a more in depth description of the fields that I operate in within it's own page.
-- I want to find out more about the site owner as an individual.
-    > The about me section provides a more in depth backstory regarding myself as an individual and my career aspirations, as well as as button that allows the user to download a CV.
-- I want to be able to contact the site owner.
+- Wish to be able to quickly start
+    > user is immediately greeted by the game screen.
+- I would like to understand the rules of the game
+    > user is prompted with a how to play modal before initiating play.
+- I would like to be able to control the sounds for the game
+    >  the user is able to decide whether the sound effects are enabled both before play and during with a button located under the game board.
+- I would like to be able to increase the difficulty
+    >  the user has access to a game mode button that will increase the amount of game pieces leading to more challenge.
 
 ![User story test](/assets/documentation/user-story2.gif)
     
 ---
 ## Issues found during site development
 
-I had issues targeting the specific parts of bootstrap which lead to a few issues that I rectified by different means 
+I had issues when trying to intergrate audio into the game as chrome mutes any sound on page launch, I rectified this by adding the option to enable sound through the modal ensuring that the user was both agreeing to have sound on the page and interacting with the page before hand.
 
-when trying to change the brand name to the site specific colors and add an animation on hover I found the only way to rectify it was to use inline styling to circumvent the issue
-
-`style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17)`
+when employing the harder difficulty mode I ran into problems with the code understanding that the game cards that were invisble were not to be interacted with leading to a situation where the smaller easier gameboard would not reset on completion, through use of debugging in dev tools i found this to be an issue with the javascript conflicting with the elements css's display styling at default.
 
 * #### 
 ![testing_issue_1](/assets/documentation/brand.png)
