@@ -93,3 +93,22 @@ function restartGame() {
 
 shuffle();
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+/*------Monkey Test-----*/
+
+async function monkeyTestGame() {
+  var homeContainer = document.querySelector(".home.container");
+  var divs = homeContainer.querySelectorAll(".memory-card");
+
+  var numEvents = 1000; 
+
+  for (var i = 0; i < numEvents; i++) {
+    setTimeout(function() {
+      var randomIndex = Math.floor(Math.random() * divs.length);
+      var divElement = divs[randomIndex];
+      divElement.click();
+    }, 3000 * i);
+   
+  }
+}
+

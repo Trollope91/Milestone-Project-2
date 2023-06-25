@@ -10,7 +10,7 @@ This project is for educational purposes only.
 
 The main aim of this project is to build a responsive website that uses HTML CSS and Javascript that displays interactivity with the page.
 
-## [View luke's portfolio in github pages]()
+## [View Pokemon fan game in github pages]()
 ---
 
 # UX
@@ -25,8 +25,10 @@ aside from the basic logic of the game using javascript, I aim to be able to pro
 
 ### New user goals:
 - select whether the game has sound or not.
-- the user can easily understand the premise of the game.
-- is able to change between another game mode that provides more difficuty.
+- easily understand the premise of the game.
+- be able to change between another game mode that provides more difficuty.
+- interact with the game elements in order to complete the game.
+- have the game reset in order to play again.
 
 ## User stories
 
@@ -104,19 +106,19 @@ The website has the below features:
     * The board consists of a repeated pokeball item image from the classic game
     * The flip side houses an image of one of the original 151 characters to be revealed and matched
 
-       ![project images]()
+       ![project images](./assets/documentation/gameboard.png)
 
 ## Game mode button
 
 * The game mode button allows the user to dynamically enlarge the game board to provide a harder difficulty
 
-![project images]()
+![project images](./assets/documentation/game-mode.png)
 
 ## Sound
 
 * If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
 
-![project images]()
+![project images](./assets/documentation/buttons.png)
 
 
 ##  Future implementations
@@ -167,7 +169,11 @@ ___
 
 ## Media Query / Resolution testing 
 
- ![resolution test]()
+ ![desktop-resolution-test](./assets/documentation/resolution-desktop.png)
+
+ ![tablet-resolution-test](./assets/documentation/resolution-tablet.png)
+
+ ![mobile-resolution-test](./assets/documentation/resolution-mobile.png)
 
 
 ## Compatibility testing
