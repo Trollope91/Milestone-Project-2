@@ -97,15 +97,15 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 /*------Monkey Test-----*/
 
 async function monkeyTestGame() {
-  var homeContainer = document.querySelector(".home.container");
-  var divs = homeContainer.querySelectorAll(".memory-card");
+  let homeContainer = document.querySelector(".home.container");
+  let divs = homeContainer.querySelectorAll(".memory-card");
 
-  var numEvents = 1000; 
+  let numEvents = 1000; 
 
-  for (var i = 0; i < numEvents; i++) {
+  for (let i = 0; i < numEvents; i++) {
     setTimeout(function() {
-      var randomIndex = Math.floor(Math.random() * divs.length);
-      var divElement = divs[randomIndex];
+      let randomIndex = Math.floor(Math.random() * divs.length);
+      let divElement = divs[randomIndex];
       divElement.click();
     }, 3000 * i);
    

@@ -123,6 +123,10 @@ html {
 
 /*-----home-----*/
 
+#close-button {
+    display: none;
+}
+
 #home {
     background-image: url(../images/gbbackground.png);
     background-size: cover;
