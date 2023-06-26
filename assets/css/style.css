@@ -90,7 +90,7 @@ html {
     width: 100px;
     height: 100px;
     position: relative;
-    margin: 5px;
+    margin: -10px;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;

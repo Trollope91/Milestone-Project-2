@@ -52,17 +52,23 @@ The website is a single page display containing a simple game in what I hope to 
 
 I used the balsamiq programme to create the initial wireframes.
 
+### Gameboard Wireframes
+
 ![Desktop-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Desktop.png)
 
 ![Mobile-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Mobile.png)
 
-![Mobile-Gameboard-Wireframes](./assets/documentation/Harder-Wireframe-Desktop.png)
+### GameMode Wireframes
 
-![Mobile-Gameboard-Wireframes](./assets/documentation/Harder-Wireframe-Mobile.png)
+![Mobile-Gamemode-Wireframes](./assets/documentation/Harder-Wireframe-Desktop.png)
 
-![Mobile-Gameboard-Wireframes](./assets/documentation/Modal-Wireframe-Desktop.png)
+![Mobile-Gamemode-Wireframes](./assets/documentation/Harder-Wireframe-Mobile.png)
 
-![Mobile-Gameboard-Wireframes](./assets/documentation/Modal-Wireframe-Mobile.png)
+### Modal Wireframes
+
+![Mobile-Modal-Wireframes](./assets/documentation/Modal-Wireframe-Desktop.png)
+
+![Mobile-Modal-Wireframes](./assets/documentation/Modal-Wireframe-Mobile.png)
 
 
 ### Changes
@@ -169,9 +175,15 @@ ___
 
 ## Media Query / Resolution testing 
 
+### Desktop Resolution
+
  ![desktop-resolution-test](./assets/documentation/resolution-desktop.png)
 
+ ### Tablet Resolution
+
  ![tablet-resolution-test](./assets/documentation/resolution-tablet.png)
+
+ ### Mobile Resolution
 
  ![mobile-resolution-test](./assets/documentation/resolution-mobile.png)
 
@@ -286,6 +298,12 @@ ___
 
 * Ideas and knowledge library:
 
+    * [bootstrap modal alignment](https://aguidehub.com/blog/how-to-show-bootstrap-modal-popup-in-center-of-screen/)
+
+    * [monkey testing](https://css-tricks.com/intro-monkey-testing-gremlins-js/)
+
+    * [udacity](https://www.udacity.com/blog/2021/03/creating-an-html-404-error-web-page.html)
+
     * [w3schools.com](https://www.w3schools.com)
 
     * [css-tricks.com](https://css-tricks.com/)
@@ -294,26 +312,4 @@ ___
 
 ### Code
 
-*
-
-### Images:
-
-back ground of project 1
-
-https://www.pexels.com/photo/turned-on-silver-imac-with-might-mouse-and-keyboard-930530/ project image
-
-boxing image
-
-Photo by Andrea Piacquadio from Pexels: https://www.pexels.com/photo/close-up-photography-of-man-wearing-boxing-gloves-927437/
-
-gaming image
-
-Photo by Lucie Liz from Pexels: https://www.pexels.com/photo/flatlay-of-gaming-equipments-3165335/
-
-fashion image 
- 
-Photo by Godisable Jacob from Pexels: https://www.pexels.com/photo/woman-in-brown-and-gray-t-shirt-sitting-on-brown-wooden-table-949670/
-
-keyboard image 
-
-https://www.pexels.com/photo/grey-laptop-keypad-60626/
+* [Card flipping tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/)
