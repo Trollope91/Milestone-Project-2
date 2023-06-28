@@ -76,6 +76,7 @@ html {
     z-index: 100;
 }
 
+
 .memory-card {
     width: 100px;
     height: 100px;
@@ -130,7 +131,7 @@ html {
     top: 30px;
 }
 
-h1 {
+.hidden-title {
 position: absolute;
 visibility: hidden;
 }

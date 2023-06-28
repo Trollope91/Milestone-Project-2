@@ -1,7 +1,6 @@
 function toggleElements() {
   let cardsFlipped = document.querySelectorAll(".memory-card.flip");
   if (cardsFlipped.length > 0) {
-    //alert ("The game has already been started");
     let modal = document.querySelector(".modal");
     let modalInstance = new bootstrap.Modal(modal);
     let title = document.getElementById("exampleModalLabel");
