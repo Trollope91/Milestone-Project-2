@@ -140,6 +140,11 @@ html {
     top: 30px;
 }
 
+h1 {
+position: absolute;
+visibility: hidden;
+}
+
 
 
 

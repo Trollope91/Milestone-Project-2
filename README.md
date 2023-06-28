@@ -54,21 +54,21 @@ I used the balsamiq programme to create the initial wireframes.
 
 ### Gameboard Wireframes
 
-![Desktop-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Desktop.png)
+![Desktop-Gameboard-Wireframes](./assets/documentation/game-wireframe-desktop.png)
 
-![Mobile-Gameboard-Wireframes](./assets/documentation/Game-Wireframe-Mobile.png)
+![Mobile-Gameboard-Wireframes](./assets/documentation/game-wireframe-mobile.png)
 
 ### GameMode Wireframes
 
-![Mobile-Gamemode-Wireframes](./assets/documentation/Harder-Wireframe-Desktop.png)
+![Mobile-Gamemode-Wireframes](./assets/documentation/harder-wireframe-desktop.png)
 
-![Mobile-Gamemode-Wireframes](./assets/documentation/Harder-Wireframe-Mobile.png)
+![Mobile-Gamemode-Wireframes](./assets/documentation/harder-wireframe-mobile.png)
 
 ### Modal Wireframes
 
-![Mobile-Modal-Wireframes](./assets/documentation/Modal-Wireframe-Desktop.png)
+![Mobile-Modal-Wireframes](./assets/documentation/modal-wireframe-desktop.png)
 
-![Mobile-Modal-Wireframes](./assets/documentation/Modal-Wireframe-Mobile.png)
+![Mobile-Modal-Wireframes](./assets/documentation/modal-wireframe-mobile.png)
 
 
 ### Changes
