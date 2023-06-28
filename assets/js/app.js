@@ -63,6 +63,9 @@ function unflipCards() {
   }, 1500);
 }
 
+/*
+Provide function for card matching dependant on game mode */
+
 /*------Reset cards------*/
 
 function resetBoard() {
@@ -79,6 +82,9 @@ function shuffle() {
   });
 }
 
+/*
+Shuffle game cards upon board reset */
+
 /*------Reset game-----*/
 
 function restartGame() {
@@ -93,6 +99,9 @@ function restartGame() {
 
 shuffle();
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+/*
+Reset game tiles upon completion of the game */
 
 /*------Monkey Test-----*/
 
@@ -111,4 +120,6 @@ async function monkeyTestGame() {
 
   }
 }
+
+/* Create spurious inputs in the memory-game element */
 

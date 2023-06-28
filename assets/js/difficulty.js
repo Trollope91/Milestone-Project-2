@@ -10,6 +10,11 @@ function toggleElements() {
     let bodybottom = document.getElementById("modal-body-bottom");
     bodybottom.innerHTML = "";
 
+    /*
+    Check for flipped cards and call error modal if true */
+
+
+
     let gameModeButton = document.getElementById("game-mode-button");
     gameModeButton.style.display = "none";
     let sfxButton = document.getElementById("sound-button");
@@ -39,6 +44,9 @@ function toggleElements() {
     }
   });
 }
+
+/*
+    Show and hide elements of gameboard for game modes */
 
 
 

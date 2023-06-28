@@ -43,3 +43,6 @@ function toggleSfx() {
   nido.muted = !nido.muted;
   butter.muted = !butter.muted;
 }
+
+/*
+Provides functions to toggle background music and sounds on or off */

@@ -5,3 +5,6 @@ window.addEventListener('DOMContentLoaded', function () {
     modalInstance.show();
   }, 1000);
 });
+
+/* 
+Call boot strap modal on page load */
