@@ -88,13 +88,17 @@ Shuffle game cards upon board reset */
 /*------Reset game-----*/
 
 function restartGame() {
-  resetBoard();
-  shuffle();
-  cards.forEach(card => {
-    card.classList.remove('flip');
-    card.addEventListener('click', flipCard);
-  });
-  matchedCards = 0;
+  try {
+    resetBoard();
+    shuffle();
+    cards.forEach(card => {
+      card.classList.remove('flip');
+      card.addEventListener('click', flipCard);
+    });
+    matchedCards = 0;
+  } catch (error) {
+    alert('unexpected error');
+  }
 }
 
 shuffle();

@@ -10,7 +10,7 @@ This project is for educational purposes only.
 
 The main aim of this project is to build a responsive website that uses HTML CSS and Javascript that displays interactivity with the page.
 
-## [View Pokemon fan game in github pages]()
+## [View Pokemon fan game in github pages](https://trollope91.github.io/Milestone-Project-2/)
 ---
 
 # UX
@@ -33,15 +33,19 @@ aside from the basic logic of the game using javascript, I aim to be able to pro
 ## User stories
 
 ### As a business owner:
-* I would like to present my skills to the prospective employer or partner in the best light possible
-* I need to make sure that the prospective employer can easily find the relevant information they need.
-* I want the prospective employer to be able to see my level of ability through the quality of the website itself
-* I would like to be able to arrange new social links and relationships through requested contact.
+* I would like to present a simple game with a clean recognisable aesthetic.
+* I would like for the player to be presetned with a how to play upon page load.
+* I Want the player to be able to decide whether they play with or without sound before starting.
+* I want the player to be able to reset the game upon completion.
+* I want the player to be able to select a harder difficulty by choice.
+* I don't want the player to be capable of breaking the game by changing game modes mid way.
 
 ### As a new customer:
-* I wish to find information about the candidate.
-* I would like to contact the site owner easily.
-* I would like to be able to find all relevant information needed on the page.
+* I wish to play a simple and fun game.
+* I want to have control over the games setting to some degree.
+* I want to understand how the game is played.
+* I want to be able to increase the difficulty of the game.
+
 
 
 ## Structure of the website
@@ -71,14 +75,11 @@ I used the balsamiq programme to create the initial wireframes.
 ![Mobile-Modal-Wireframes](./assets/documentation/modal-wireframe-mobile.png)
 
 
-### Changes
-
-
 ### Colors
 
 Main colours used in the project: rgba(138, 149, 107,0.9)
-Text in paragraphs:color:black;
 
+Text in paragraphs : color : black ;
 
 ### Fonts 
 
@@ -96,8 +97,9 @@ https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/8728/
 
 https://www.spriters-resource.com/game_boy_gbc/pokemonredblue/sheet/36964/
 ___
+
 # Features
-The website consists of a single page with a title div, gamecontainer and a div housing buttons for the sound and the game mode.
+The website consists of a single page with a title, gamecontainer and buttons for the sound and the game mode.
 
 The website has the below features:
 
@@ -125,6 +127,18 @@ The website has the below features:
 * If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
 
 ![project images](./assets/documentation/buttons.png)
+
+## 404 page
+
+* If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
+
+![project images](./assets/documentation/404-screen.png)
+
+## Error Message
+
+* If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
+
+![project images](./assets/documentation/error-modal.png)
 
 
 ##  Future implementations
@@ -212,7 +226,6 @@ ___
 - I want the player to be capable of modifying the games diffuculty at any time.
     >the user has access to a game mode button that will increase or decrease the size of the gameboard and accompanying game pieces.
 
-    ![User story test](/assets/documentation/user-story.gif)
 
 ### As a new customer:
 - Wish to be able to quickly start
@@ -223,8 +236,6 @@ ___
     >  the user is able to decide whether the sound effects are enabled both before play and during with a button located under the game board.
 - I would like to be able to increase the difficulty
     >  the user has access to a game mode button that will increase the amount of game pieces leading to more challenge.
-
-![User story test](/assets/documentation/user-story2.gif)
     
 ---
 ## Issues found during site development
@@ -234,15 +245,25 @@ I had issues when trying to intergrate audio into the game as chrome mutes any s
 when employing the harder difficulty mode I ran into problems with the code understanding that the game cards that were invisble were not to be interacted with leading to a situation where the smaller easier gameboard would not reset on completion, through use of debugging in dev tools i found this to be an issue with the javascript conflicting with the elements css's display styling at default.
 
 * #### 
-![testing_issue_1](/assets/documentation/brand.png)
-![testing_issue_1](/assets/documentation/brand2.png)
+![testing_issue_1](./assets/documentation/wont-reset.png)
 
-when attempting to remove the stock boot strap color schemes with my own I decided to use the built in (btn-dark) feature to create a cohesive and intentional feel to the design.
 * #### 
 
-![testing_issue_2](/assets/documentation/modal-submit.png)
-![testing_issue_2](/assets/documentation/modal-submit2.png)
+game tiles appeared to be blown out of proportion on actual device but was rectified by updating old built in browsers and using more modern borwsers like chrome & fire fox to be able to understand more moder css stylings like scale etc.
 
+![testing_issue_1](./assets/documentation/blown-up.png)
+
+
+
+## Manual testing
+
+I performed various exercises on the game inputting on the gamecards and button in an attempt to break the game or page
+
+## Automated testing
+
+Through the creation and use of a monkey exerciser I was able to execute a set number of random input of the page to test the game itself
+
+![Performance-desktop](./assets/documentation/monkey-exerciser.gif)
 
 ## Performance testing
 
@@ -269,11 +290,11 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ## Repository
 
-
+https://github.com/Trollope91/Milestone-Project-2
 
 ## Live link
 
-
+https://trollope91.github.io/Milestone-Project-2/
 
 ## Copying the repository
 
@@ -282,6 +303,8 @@ Open a terminal on their local machine and navigate to the directory where they 
 Wait for the cloning process to complete.
 
 ## Clone link
+
+https://github.com/Trollope91/Milestone-Project-One.git
 
 
 
@@ -310,6 +333,4 @@ ___
 
     * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.6.2/getting-started/introduction/)
 
-### Code
-
-* [Card flipping tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/)
+    * [Card flipping tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/)
