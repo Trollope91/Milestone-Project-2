@@ -3,8 +3,9 @@ window.addEventListener('DOMContentLoaded', function () {
     let modal = document.querySelector('.modal');
     let modalInstance = new bootstrap.Modal(modal);
     modalInstance.show();
-  }, 1000);
+  }, 300);
 });
+ 
 
 /* 
 Call boot strap modal on page load */
