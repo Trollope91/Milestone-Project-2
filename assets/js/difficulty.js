@@ -1,10 +1,10 @@
 const { tsBooleanKeyword } = require("@babel/types");
 
 function toggleElements() {
-  
-if (checkIfGameHasStarted ()){
-  return;
-}
+
+  if (checkIfGameHasStarted()) {
+    return;
+  }
 
 
   let elements = document.querySelectorAll(".harder");
@@ -28,10 +28,9 @@ if (checkIfGameHasStarted ()){
 
 
 
-function checkIfGameHasStarted () {
+function checkIfGameHasStarted() {
   let cardsFlipped = document.querySelectorAll(".memory-card.flip");
-  if (cardsFlipped.length > 0) 
-  {
+  if (cardsFlipped.length > 0) {
     let modal = document.querySelector(".modal");
     let modalInstance = new bootstrap.Modal(modal);
     let title = document.getElementById("exampleModalLabel");

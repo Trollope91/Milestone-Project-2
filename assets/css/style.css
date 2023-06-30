@@ -20,9 +20,8 @@ img {
 
 /*----game-----*/
 
-.memory-game,
-.memory-card {
-    scale: 0.8;
+.memory-game{
+    transform: scale(0.7);
 }
 
 .front-face,
@@ -82,7 +81,7 @@ html {
     height: 100px;
     position: relative;
     margin: -10px;
-    transform: scale(1);
+    transform: scale(0.8);
     transform-style: preserve-3d;
     transition: transform .5s;
 }
@@ -132,8 +131,8 @@ html {
 }
 
 .hidden-title {
-position: absolute;
-visibility: hidden;
+    position: absolute;
+    visibility: hidden;
 }
 
 
@@ -202,7 +201,7 @@ button {
     border: none;
     padding: 10px;
     background-color: transparent;
-    scale: 1.1;
+    transform: scale(1.1);
     font-weight: 600;
 }
 
@@ -222,7 +221,7 @@ button {
 #img404 {
     justify-content: center;
     z-index: 100;
-    scale: 0.7;
+    transform: scale(0.7);
 
 }
 
@@ -235,11 +234,6 @@ button {
         position: absolute;
         font-size: medium;
         padding-top: 500px;
-    }
-
-    .memory-game,
-    .memory-card {
-        scale: 0.7;
     }
 
     .modal {
