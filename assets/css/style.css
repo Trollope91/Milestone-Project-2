@@ -20,7 +20,7 @@ img {
 
 /*----game-----*/
 
-.memory-game{
+.memory-game {
     transform: scale(0.7);
 }
 
@@ -93,22 +93,6 @@ html {
 
 .memory-card.flip {
     transform: rotateY(180deg);
-}
-
-/*-----navbar-----*/
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.navbar a {
-    color: rgb(200, 200, 200);
 }
 
 /*-----home-----*/
