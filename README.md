@@ -251,8 +251,13 @@ when employing the harder difficulty mode I ran into problems with the code unde
 
 game tiles appeared to be blown out of proportion on actual device but was rectified by updating old built in browsers and using more modern borwsers like chrome & fire fox to be able to understand more moder css stylings like scale etc.
 
-![testing_issue_1](./assets/documentation/blown-up.png)
+![testing_issue_2](./assets/documentation/blown-up.png)
 
+using transform scale styling created a transitional problem where the back facing images would not scale the same as the front, I fixed this my changing the transform scale style to the more modern scale styling
+![testing_issue_3_part1](./assets/documentation/css.png)
+![testing_issue_3_part1](./assets/documentation/overlap.png)
+![testing_issue_3](./assets/documentation/scale.png)
+![testing_issue_3](./assets/documentation/scalefix.png)
 
 
 ## Manual testing
@@ -269,17 +274,25 @@ Through the creation and use of a monkey exerciser I was able to execute a set n
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-![Performance-desktop](/assets/documentation/response-desktop.png)
-![Performance-mobile](/assets/documentation/response-mobile.png)
+![Performance-desktop](./assets/documentation/desktop-lighthouse.png)
+![Performance-mobile](./assets/documentation/mobile-lighthouse.png)
 
 ## Code Validation
  At the and of the project I used two websites to validate a code
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
+*  [jshint](https://jshint.com/)
 
  ![Html-validation](/assets/documentation/html-check.png)
+
  ![Css-validation](/assets/documentation/css-check.png)
+
+![Javascript-validation-part1](./assets/documentation/jstest.png)
+![Javascript-validation-part2](./assets/documentation/difficulty-test.png)
+![Javascript-validation-part3](./assets/documentation/modal-test.png)
+![Javascript-validation-part4](./assets/documentation/sfx-test.png)
+
 
 
 
@@ -304,7 +317,7 @@ Wait for the cloning process to complete.
 
 ## Clone link
 
-https://github.com/Trollope91/Milestone-Project-One.git
+https://github.com/Trollope91/Milestone-Project-2.git
 
 
 
