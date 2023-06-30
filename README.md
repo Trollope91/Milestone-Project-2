@@ -1,8 +1,8 @@
 # Gameboy Fan Game
 
-## User-Centric Front end Development Milestone Project.
+## Code institute milestone project two
 
-![Project_image]
+![Project_image](./assets/documentation/preview.png)
 
 The Website presents a fully responsive browser based game, themed after the original gameboy and using the iconic graphics and sounds from the original pokemon titles.
 
@@ -206,8 +206,6 @@ ___
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
  I tested on hardware devices such as: Dell Latitude with Windows OS's, Huawei P30 smartphone with Android OS on google chrome browser and samsung A7 lite with Android OS.
-
-![Mobile test]()
 
 ## User stories testing
 
