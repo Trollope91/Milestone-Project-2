@@ -285,6 +285,11 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
   
   https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale
   #
+
+   * [Wave](https://wave.webaim.org/report#/https://trollope91.github.io/Milestone-Project-2/) to assess page accessibility and error check
+  ![Wave-validation](./assets/documentation/wave-test.png)
+
+  #
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
   ![Html-validation](./assets/documentation/validate-html.png)
   #
