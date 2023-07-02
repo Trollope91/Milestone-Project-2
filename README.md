@@ -239,18 +239,18 @@ ___
 ## Issues found during site development
 
 I had issues when trying to intergrate audio into the game as chrome mutes any sound on page launch, I rectified this by adding the option to enable sound through the modal ensuring that the user was both agreeing to have sound on the page and interacting with the page before hand.
+#
 
 when employing the harder difficulty mode I ran into problems with the code understanding that the game cards that were invisble were not to be interacted with leading to a situation where the smaller easier gameboard would not reset on completion, through use of debugging in dev tools i found this to be an issue with the javascript conflicting with the elements css's display styling at default.
 
-* #### 
 ![testing_issue_1](./assets/documentation/wont-reset.png)
 
-* #### 
+#
 
 game tiles appeared to be blown out of proportion on actual device but was rectified by updating old built in browsers and using more modern borwsers like chrome & fire fox to be able to understand more moder css stylings like scale etc.
 
 ![testing_issue_2](./assets/documentation/blown-up.png)
-
+#
 using transform scale styling created a transitional problem where the back facing images would not scale the same as the front, I fixed this my changing the transform scale style to the more modern scale styling
 ![testing_issue_3_part1](./assets/documentation/css.png)
 ![testing_issue_3_part1](./assets/documentation/overlap.png)
@@ -279,13 +279,16 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
  At the and of the project I used two websites to validate a code
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+  ![Css-validation](./assets/documentation/validate-css.png)
+
+  I have provided the official docs to the scale function that was added and is not yet up to date in the CSS validator leading to the Error.
+  
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale
+  #
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
-*  [jshint](https://jshint.com/)
-
- ![Html-validation](/assets/documentation/html-check.png)
-
- ![Css-validation](/assets/documentation/css-check.png)
-
+  ![Html-validation](./assets/documentation/validate-html.png)
+  #
+*  [jshint](https://jshint.com/) To error check javascript code
 ![Javascript-validation-part1](./assets/documentation/jstest.png)
 ![Javascript-validation-part2](./assets/documentation/difficulty-test.png)
 ![Javascript-validation-part3](./assets/documentation/modal-test.png)
