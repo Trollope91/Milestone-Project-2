@@ -130,13 +130,13 @@ The website has the below features:
 
 ## 404 page
 
-* If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
+* If for some reason the gamepage no longer exists they will be redirected to a custom 404 page
 
 ![project images](./assets/documentation/404-screen.png)
 
 ## Error Message
 
-* If the player so chooses they may mute or unmute the games sound even after the initial selection at the how to play modal
+* If the player attempts to change the game mode after selecting tiles the will be prompted to finish the curent game first
 
 ![project images](./assets/documentation/error-modal.png)
 
